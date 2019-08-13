@@ -65,6 +65,6 @@ function setBackgroundToRandColor()
     subtextContainer.style.color = fontColor;
 }
 
-window.onclick = setBackgroundToRandColor;
+window.addEventListener( 'click', setBackgroundToRandColor );
 
 setBackgroundToRandColor();
