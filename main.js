@@ -65,6 +65,6 @@ function setBackgroundToRandColor()
     subtextContainer.style.color = fontColor;
 }
 
-window.addEventListener( 'click touchstart', setBackgroundToRandColor );
+$( window ).on( 'click touchstart', setBackgroundToRandColor );
 
 setBackgroundToRandColor();
