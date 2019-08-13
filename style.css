@@ -1,0 +1,26 @@
+body
+{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary
+{
+    color: white;
+    font-size: 60px;
+}
+
+.sub
+{
+    font-size: 16px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
