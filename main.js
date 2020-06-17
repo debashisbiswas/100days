@@ -1,7 +1,8 @@
 const _MS_PER_DAY = 1000 * 60 * 60 * 24;
 
-// challenge started on Aug 5, 2019 (which is month 7 if Jan is 0)
-const startDate = new Date( 2019, 7, 5 );
+// challenge 1 started on Aug 5, 2019 (which is month 7 if Jan is 0)
+// challenge 2 started on Jun 15, 2020
+const startDate = new Date( 2020, 5, 15 );
 const currentDate = new Date();
 
 function dateDiffInDays( a, b )
